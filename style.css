@@ -1,0 +1,61 @@
+body {
+    background-color: #E2D4FF;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    color: #3C3C3C;
+}
+
+h1 {
+    color: #2BC4C5;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+form {
+    background-image: url('images/sparkle.gif');
+    background-size: 5%;
+    background-repeat: repeat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"], textarea {
+    background-color: #E6F7F8;
+    border: 1px solid #BFBFBF;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 12px;  
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #2BC4C5;
+    border-color: #2BC4C5;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #28A3A5;
+}
+
+table th {
+    background-color: #D9A6FF;
+    color: #3C3C3C;
+}
+
+table td {
+    vertical-align: middle;
+    background-color: #F3E8FF;
+}

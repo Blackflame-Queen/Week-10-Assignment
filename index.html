@@ -10,44 +10,47 @@
     rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
     crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Using HTML, Bootstrap, and JavaScript create a single page website that contains the following:
 1 | A Bootstrap styled table representing your choice of data.
 2 | A Bootstrap styled form that allows a user to add a new row to the table when clicking on submit.-->
-<table class="table">
-<thead id="tHead">
-    <th>#</th>
-    <th>First</th>
-    <th>Last</th>
-    <th>Fave Color</th>
-</thead>
-<tbody id="tBody">
-
-</table>
-
 <form>
-<div>
-    <label for="firstName"" class="form-label">First Name</label>
-    <input type="text" class="form-control" id="firstName">
-</div>
-<div>
-    <label for="lastName"" class="form-label">Last Name</label>
-    <input type="text" class="form-control" id="lastName">
-</div>
-<div>
-    <label for="faveColor"" class="form-label">Fave Color</label>
-    <input type="text" class="form-control" id="faveColor">
-</div>
-<button type="button" class="btn btn-primary" id="formSubmit">Submit</button>
+    <div class="mb-3">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+    </div>
+    <div class="mb-3">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+    </div>
+    <div class="mb-3">
+        <label for="faveColor" class="form-label">Favorite Color</label>
+        <input type="text" class="form-control" id="faveColor" placeholder="Enter favorite color">
+    </div>
+    <button type="button" class="btn btn-primary" id="formSubmit">Submit</button>
 </form>
 
+<table class="table table-striped table-hover">
+    <thead id="tHead">
+        <tr>
+            <th>#</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Favorite Color</th>
+        </tr>
+    </thead>
+    <tbody id="tBody">
+
+    </tbody>
+</table>
 
 <script 
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
-crossorigin="anonymous"
-></script>
+crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
 </html>
