@@ -1,4 +1,7 @@
 body {
+    background-image: url('images/paradise.png');
+    background-size: 20%;
+    background-repeat: repeat;
     background-color: #E2D4FF;
     font-family: 'Poppins', sans-serif;
     padding: 20px;
@@ -13,6 +16,9 @@ h1 {
 }
 
 .table {
+    background-image: url('images/sparkle.gif');
+    background-size: 5%;
+    background-repeat: repeat;
     margin-top: 20px;
     border-radius: 8px;
     overflow: hidden;
@@ -51,6 +57,9 @@ input[type="text"], textarea {
 }
 
 table th {
+    background-image: url('images/sparkle.gif');
+    background-size: 5%;
+    background-repeat: repeat;
     background-color: #D9A6FF;
     color: #3C3C3C;
 }
@@ -58,4 +67,26 @@ table th {
 table td {
     vertical-align: middle;
     background-color: #F3E8FF;
+}
+
+.gif-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.gif-above-button {
+    width: 70px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    margin-top: 0;
+}
+
+.btn-primary:hover + .gif-above-button {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
